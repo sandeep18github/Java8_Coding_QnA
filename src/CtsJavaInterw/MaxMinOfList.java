@@ -25,6 +25,8 @@ public class MaxMinOfList {
         Integer minNum = listOfIntegers.stream().min(Comparator.naturalOrder()).get();
 
 
+
+
         System.out.println("Max Num --> " + maxNum + " Min Num --> " + minNum + " SortedList --> " + collect);
     }
 }
